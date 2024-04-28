@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+.playlist{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b0a1a1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.playlist-container {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.playlist-image img {
+    width: 100%;
+    display: block;
+    height: 130px;
+}
+
+.playlist-info {
+    padding: 10px;
+    /* background-color: #f0ecec; */
+    text-align: center;
+}
+
+.playlist-info h3 {
+    margin: 5px 0;
+    color: #d14f4f;
+}
+
+.playlist-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.playlist-info button {
+    background-color: #1ed760;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.playlist-tracks .track {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.playlist-tracks .track:last-child {
+    border-bottom: none;
+}
+
+.track-number {
+    font-weight: bold;
+}
+
+.track-title {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.track-duration {
+    color: #666;
+}
